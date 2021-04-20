@@ -37,11 +37,6 @@ footer {
         grid-area: subscribe-now;
     }
 
-    .footerCopyright {
-        background-color: #0D1117;
-
-        height: 113px;
-    }
 
     .copyright {
         position: fixed;
@@ -49,6 +44,8 @@ footer {
         bottom: 0;
         width: 100%;
         text-align: center;
+        background-color: #0D1117;
+        height: 113px;
 
         .pCopyright {
             padding-top: 20px;
@@ -60,7 +57,7 @@ footer {
             color: red;
         }
 
-        .titreCopyright{
+        .titreCopyright {
             margin-bottom: 50px;
         }
     }
