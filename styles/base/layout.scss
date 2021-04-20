@@ -1,0 +1,67 @@
+footer {
+    height: 360px;
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    .grid-container {
+        padding-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "ABOUT our-service quick-links subscribe-now"
+            ". . . ."
+            ". . . .";
+    }
+
+    .ABOUT {
+        grid-area: ABOUT;
+    }
+
+    .our-service {
+        grid-area: our-service;
+    }
+
+    .quick-links {
+        grid-area: quick-links;
+    }
+
+    .subscribe-now {
+        grid-area: subscribe-now;
+    }
+
+    .footerCopyright {
+        background-color: #0D1117;
+
+        height: 113px;
+    }
+
+    .copyright {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+
+        .pCopyright {
+            padding-top: 20px;
+            font-size: 15px;
+
+        }
+
+        .spanCopyright {
+            color: red;
+        }
+
+        .titreCopyright{
+            margin-bottom: 50px;
+        }
+    }
+}
