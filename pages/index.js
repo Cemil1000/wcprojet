@@ -8,11 +8,10 @@ export default function Home() {
   return (
     <>
       <Layout>
-
         <HomeVideo />
         <Section1 />
         <Section2 />
-      </Layout>
+      </Layout>    
     </>
   )
 }
