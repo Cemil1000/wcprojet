@@ -1,0 +1,60 @@
+#allVideo {
+  padding: 150px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2532;
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0% 4%;
+    grid-template-areas: "video videoText";
+
+    .videoText {
+      h2 {
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 48px;
+      }
+
+      p {
+        color: #707d8f;
+        margin-bottom: 20px;
+      }
+
+      .ulVideo {
+        margin-top: 50px;
+
+        a {
+          background-color: #21d6bf;
+          background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+          color: #fff;
+          display: inline-block;
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 10px 40px;
+          text-transform: uppercase;
+          border: 1px solid transparent;
+          border-radius: 2px;
+        }
+
+        a:hover {
+          background-image: none;
+
+        }
+
+      }
+    }
+  }
+
+  .video {
+    grid-area: video;
+  }
+
+  .videoText {
+    grid-area: videoText;
+  }
+}
