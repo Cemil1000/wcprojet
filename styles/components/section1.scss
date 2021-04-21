@@ -1,0 +1,35 @@
+.section1{
+    background: #F7F7F7;
+    padding: 100px 0;
+    .container{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-column-gap: 50px;
+        grid-template-areas: "titre text";
+        .titre{
+            grid-area: titre;
+            h2{
+                position: relative;
+                font-size: 2rem;
+            }
+            h2::before {
+                position: absolute;
+                left: -50px;
+                top: 18px;
+                content: '';
+                display: inline-block;
+                width: 44px;
+                height: 3px;
+                background: #fe2a77;
+            }
+        }
+        .text{
+            grid-area: text;
+            color: #9A9A9A;
+            font-size: 15px;
+            .padding{
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
