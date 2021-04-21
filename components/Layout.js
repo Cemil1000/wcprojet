@@ -1,12 +1,12 @@
-import React from 'react'
 import {FaCaretDown}from 'react-icons/fa'
 
-export default function Layout({children}) {
+
+export default function Layout({ children }) {
     return (
         <>
             <header>
-                <div class="container">
-                    <img src="./img/logo.png" alt="Logo du site" class="logo"/>
+                <div className="container">
+                    <img src="./img/logo.png" alt="Logo du site" className="logo"/>
                     <nav>
                         <ul>
                             <li><a href="#">Home</a></li>
@@ -14,9 +14,9 @@ export default function Layout({children}) {
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Portfolio</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropbtn">Pages <FaCaretDown /></a>
-                                <div class="dropdown-content">
+                            <li className="dropdown">
+                                <a href="#" className="dropbtn">Pages <FaCaretDown /></a>
+                                <div className="dropdown-content">
                                     <a href="#">404 Page</a>
                                 </div>
                             </li>
@@ -26,44 +26,45 @@ export default function Layout({children}) {
             </header>
 
             {children}
-            
+
             <footer>
                 <div>
 
                     <div class="grid-container container">
                         <div class="ABOUT">
+      
                             <h3>ABOUT</h3>
                             <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. 
                             Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
                         </div>
 
-                        <div class="our-service">
-                            <h3 class="aColumn">OUR SERVICE</h3>
+                        <div className="our-service">
+                            <h3 className="aColumn">OUR SERVICE</h3>
                             <a href="#">Graphic Design</a>
                             <a href="#">Web Design</a>
                             <a href="#">Web Development</a>
                         </div>
 
-                        <div class="quick-links">
-                            <h3 class="aColumn">QUICK LINKS</h3>
+                        <div className="quick-links">
+                            <h3 className="aColumn">QUICK LINKS</h3>
                             <a href="#">Partners</a>
                             <a href="#">About</a>
                             <a href="#">FAQ’s</a>
                             <a href="#">Badges</a>
                         </div>
 
-                        <div class="subscribe-now">
+                        <div className="subscribe-now">
                             <h3>SUBSCRIBE NOW</h3>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email"></input>
-                            <button type="submit" class="btnFooter ">Subscribe Now</button>
+                            <input type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email"></input>
+                            <button type="submit" className="btnFooter ">Subscribe Now</button>
                         </div>
                     </div>
 
-                    <div class="copyright">
-                        <p class="pCopyright" >
+                    <div className="copyright">
+                        <p className="pCopyright" >
                         COPYRIGHT 2018. ALL RIGHTS RESERVED. <br/> 
                         Design And Developed By Themefisher.Com <br/> 
-                        Get More <span class="spanCopyright"> Free Bootstrap Templates </span> 
+                        Get More <span className="spanCopyright"> Free Bootstrap Templates </span> 
                         </p>
                     </div>
 
