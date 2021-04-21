@@ -1,5 +1,6 @@
 import {FaCaretDown}from 'react-icons/fa'
 
+
 export default function Layout({ children }) {
     return (
         <>
@@ -27,10 +28,11 @@ export default function Layout({ children }) {
             {children}
 
             <footer>
-                <div className="container">
+                <div>
 
-                    <div className="grid-container">
-                        <div className="ABOUT">
+                    <div class="grid-container container">
+                        <div class="ABOUT">
+      
                             <h3>ABOUT</h3>
                             <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. 
                             Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
