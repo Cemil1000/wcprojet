@@ -53,7 +53,6 @@ export default function Section3() {
   return (
     <>
       <section id="section3">
-        <div className="container">
           <div id="titre-general">
             <h4>HOW WE WORKS</h4>
             <h2>Our Work Process</h2>
@@ -63,6 +62,7 @@ export default function Section3() {
               reiciendis quasi itaque, obcaecati atque sit!
             </p>
           </div>
+        <div className="container">
           <div class="cardsOurWork">{cardsList}</div>
         </div>
       </section>
