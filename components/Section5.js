@@ -1,5 +1,5 @@
 import { ImFacebook, ImDribbble} from "react-icons/im";
-import { IoLogoTwitter } from "react-icons/io";
+import { IoLogoTwitter } from "react-icons/Io";
 import { TiSocialGooglePlus } from "react-icons/ti";
 
 const team =[
