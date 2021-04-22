@@ -1,5 +1,7 @@
 #section3 {
- 
+background-color: #f9f9f9;
+padding: 100px 0;
+
     .cardsOurWork {
       display: flex;
       flex-wrap: wrap;
@@ -10,7 +12,6 @@
         position: relative;
         text-align: center;
         flex: 2 2 300px;
-        z-index: -1;
         background: #fff;
         border: 1px solid #eee;
         padding: 50px 20px;

@@ -53,15 +53,15 @@ export default function Section3() {
   return (
     <>
       <section id="section3">
-          <div id="titre-general">
-            <h4>HOW WE WORKS</h4>
-            <h2>Our Work Process</h2>
-            <span></span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-              reiciendis quasi itaque, obcaecati atque sit!
-            </p>
-          </div>
+        <div id="titre-general">
+          <h4>HOW WE WORKS</h4>
+          <h2>Our Work Process</h2>
+          <span></span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+            reiciendis quasi itaque, obcaecati atque sit!
+          </p>
+        </div>
         <div className="container">
           <div class="cardsOurWork">{cardsList}</div>
         </div>
