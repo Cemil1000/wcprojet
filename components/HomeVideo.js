@@ -1,10 +1,24 @@
-export default function HomeVideo() {
+import { FaPlayCircle } from "react-icons/fa";
+import { useState } from "react";
+
+export default function HomeVideo(props) {
+  const [contenuVideo, setContenuVideo] = useState("affiche-imgIconVideo");
+
+  function activatePlay() {
+    setContenuVideo("supp-imgIconVideo");
+  }
+
   return (
     <>
       <section id="allVideo">
         <div className="grid-container container">
-          
-          <div>
+          <div className="video">
+            <FaPlayCircle
+              onClick={activatePlay}
+              size={"80"}
+              className={"icon-homeVideo " + contenuVideo}
+            />
+
             <iframe
               width="572"
               height="360"
@@ -13,7 +27,16 @@ export default function HomeVideo() {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            ></iframe>
+            >
+              {" "}
+            </iframe>
+            <img
+              className={"imgVideo "+ contenuVideo}
+              width="572"
+              height="360"
+              src="img/slider/video-player-thumb.jpg"
+              alt="image d'un homme qui parle"
+            />
           </div>
 
           <div className="videoText">
@@ -26,10 +49,11 @@ export default function HomeVideo() {
               libero officia consequatur.
             </p>
             <ul className="ulVideo">
-            <a href="https://themefisher.com/" target="_blank">Download More</a>
+              <a href="https://themefisher.com/" target="_blank">
+                Download More
+              </a>
             </ul>
           </div>
-
         </div>
       </section>
     </>
