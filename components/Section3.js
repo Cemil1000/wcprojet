@@ -39,8 +39,8 @@ const allCards = [
 const cardsList = allCards.map((elem) => {
   return (
     <>
-      <div class={"card "}>
-        <span className={"count"}>{elem.count}</span>
+      <div className={"card "}>
+        <span className={"count "}>{elem.count}</span>
         {elem.icon}
         <h4>{elem.title}</h4>
         <p>{elem.description}</p>
