@@ -1,7 +1,7 @@
 import {IoMdCopy}from 'react-icons/Io'
 import {IoAlarmOutline, IoBookOutline}from 'react-icons/Io5'
 
-const titre =[
+const talent =[
     {
         icon: <IoMdCopy size={"40"} className="icon-Section2"/>,
         title: 'WordPress Theme',
@@ -22,7 +22,7 @@ const titre =[
     }
 ]
 
-const list = titre.map(elem=>{
+const list = talent.map(elem=>{
     return(
         <>
             <div class={"card " + elem.className }>
