@@ -4,6 +4,7 @@ const allCards = [
     title_link: <a href="#">Ten things about Business</a>,
     description:
       "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est voluptatem accusantium dolorum, maxime eos blanditiis sint enim necessitatibus placeat dolor.",
+    prefix:"By ",
     liLeft_link: <a href="#">Jonathon Ive</a>,
     liRight_spanDate: "15th December 2017",
     btnArticle_link: <a href="#">Read more</a>,
@@ -15,6 +16,7 @@ const allCards = [
     title_link: <a href="#">Something I need to tell you</a>,
     description:
       "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est voluptatem accusantium dolorum, maxime eos blanditiis sint enim necessitatibus placeat dolor.",
+    prefix:"By ",
     liLeft_link: <a href="#">Jonathon Ive</a>,
     liRight_spanDate: "15th December 2017",
     btnArticle_link: <a href="#">Read more</a>,
@@ -24,6 +26,7 @@ const allCards = [
     title_link: <a href="#">Are you doing the Right Way?</a>,
     description:
       "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est voluptatem accusantium dolorum, maxime eos blanditiis sint enim necessitatibus placeat dolor.",
+    prefix:"By ",
     liLeft_link: <a href="#">Jonathon Ive</a>,
     liRight_spanDate: "15th December 2017",
     btnArticle_link: <a href="#">Read more</a>
@@ -39,11 +42,11 @@ const cardsList = allCards.map((elem) => {
 
           <ul>
             <li className={"liLeft "}>
-              <span>By </span>
+              <span>{elem.prefix} </span>
               {elem.liLeft_link}
             </li>
             <li className={"liRight "}>
-              <span>By </span>
+              <span>{elem.prefix} </span>
               {elem.liRight_spanDate}
             </li>
           </ul>
