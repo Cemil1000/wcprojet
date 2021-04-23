@@ -78,7 +78,7 @@ export default function Section2() {
                         <div className="ImgBox aboutSpace">
                             <img
                                 src="img/about/about-2.jpg"
-                                alt="image d'un homme sur son ordinateur"
+                                alt="image d'un homme qui réfléchit"
                             />
                         </div>
                     </div>
