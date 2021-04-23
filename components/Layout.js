@@ -30,8 +30,8 @@ export default function Layout({ children }) {
             <footer>
                 <div>
 
-                    <div class="grid-container container">
-                        <div class="ABOUT">
+                    <div className="grid-container container">
+                        <div className="ABOUT">
       
                             <h3>ABOUT</h3>
                             <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. 
