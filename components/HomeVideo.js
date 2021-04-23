@@ -24,9 +24,9 @@ export default function HomeVideo(props) {
               height="360"
               src="https://www.youtube.com/embed/g3-VxLQO7do"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             >
               {" "}
             </iframe>

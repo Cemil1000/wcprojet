@@ -63,7 +63,7 @@ export default function Section3() {
           </p>
         </div>
         <div className="container">
-          <div class="cardsOurWork">{cardsList}</div>
+          <div className="cardsOurWork">{cardsList}</div>
         </div>
       </section>
     </>
