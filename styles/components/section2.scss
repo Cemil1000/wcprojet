@@ -1,36 +1,28 @@
 #section2{
     .cards-Section2{
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
-       grid-column-gap: 5%;
-       grid-template-areas: "word1 word2 word3";
-       padding: 70px 0;
-       .card{
-           display: flex;
-           flex-direction: column;
-           p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0;
+        .card{
+            max-width: 33%;
+            min-width: 250px;
+            padding: 30px 35px;
+            p{
                 text-align: center;
                 color: #777777;
-           }
-           h3{
+            }
+            h3{
                 text-align: center;
                 font-size: 18px;
                 padding-bottom: 8px;
-           }
-           .icon-Section2{
+            }
+            .icon-Section2{
                 margin: auto;
                 color: #f0326b;
                 margin-bottom: 15px;
-           }
-        }
-        .icon-copy{
-            grid-area: word1;
-        }
-        .icon-timer{
-            grid-area: word2;
-        }
-        .icon-book{
-            grid-area: word3;
+            }
         }
     }
 

@@ -7,28 +7,25 @@ export default function Section2() {
         {
             icon: <IoMdCopy size={"40"} className="icon-Section2"/>,
             title: 'WordPress Theme',
-            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.',
-            className: 'icon-copy'
+            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.'
         },
         {
             icon: <IoAlarmOutline size={"40"} className="icon-Section2"/>,
             title: 'Responsive Design',
-            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.',
-            className: 'icon-timer'
+            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.'
         },
         {
             icon: <IoBookOutline size={"40"} className="icon-Section2"/>,
             title: 'Media & Advertisement',
-            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.',
-            className: 'icon-book'
+            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.'
         }
     ]
     
     const list = talent.map(elem=>{
         return(
             <>
-                <div className={"card " + elem.className }>
-                    {elem.icon}
+                <div className="card ">
+                    <p>{elem.icon}</p>
                     <h3>{elem.title}</h3>
                     <p>{elem.description}</p>
                 </div>
