@@ -35,10 +35,10 @@ export default function Section3() {
     }
   ]
   
-  const cardsList = allCards.map((elem) => {
+  const cardsList = allCards.map((elem, index) => {
     return (
       <>
-        <div className={"card "}>
+        <div key={"cardS3"+index} className={"card "}>
           <span className={"count "}>{elem.count}</span>
           {elem.icon}
           <h4>{elem.title}</h4>

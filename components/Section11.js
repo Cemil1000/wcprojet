@@ -35,11 +35,11 @@ export default function Section11() {
         }
     ]
 
-    const service = services.map(elem=>{
-        console.log(elem);
+    const service = services.map((elem, index)=>{
+        // console.log(elem);
         return(
             <>
-                <div className="card">
+                <div key={"cardS11"+index} className="card">
                     <div className="card-body">
                         <p>{elem.icon}</p>
                         <h3>{elem.titre}</h3>

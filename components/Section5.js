@@ -30,10 +30,10 @@ export default function Section5() {
         }
     ]
 
-    const personne = team.map(elem=>{
+    const personne = team.map((elem, index)=>{
         return(
             <>
-                <div className="card">
+                <div key={"cardS5"+index} className="card">
                     <img src={elem.img} alt="Portrait photo"/>
                     <div className="card-body">
                         <h3>{elem.nom}</h3>

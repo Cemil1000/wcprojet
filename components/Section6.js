@@ -17,10 +17,10 @@ export default function Section6() {
         }
     ]
 
-    const paquet = paquets.map(elem=>{
+    const paquet = paquets.map((elem, index)=>{
         return(
             <>
-                <div className="card">
+                <div key={"cardS6"+index} className="card">
                     <div className="prix">
                         <h3>{elem.categorie}</h3>
                         <span>{elem.prix}</span>

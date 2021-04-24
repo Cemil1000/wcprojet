@@ -32,10 +32,10 @@ export default function Section8() {
     }
   ];
   
-  const cardsList = allCards.map((elem) => {
+  const cardsList = allCards.map((elem, index) => {
     return (
       <>  
-          <article className="card">
+          <article key={"cardS8"+index} className="card">
             {elem.img}
             <h3>{elem.title_link}</h3>
   

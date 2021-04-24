@@ -26,10 +26,10 @@ export default function Section7() {
     },
   ];
 
-  const cardsSlide = allCardsSlide.map((elem) => {
+  const cardsSlide = allCardsSlide.map((elem, index) => {
     return (
       <>
-        <div className="each-slide">
+        <div key={"cardS7"+index} className="each-slide">
           <FaQuoteLeft size={"40"} className="iconQuote" />
           <div className="description">
             <p>{elem.description}</p>
