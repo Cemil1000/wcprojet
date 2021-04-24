@@ -13,7 +13,6 @@
       max-width: 50%;
       min-width: 541px;
 
-
       .map {
         width: 100%;
         height: 400px;
@@ -34,7 +33,6 @@
         border-radius: 3px;
 
         .form-control {
-          
           width: 100%;
           padding: 0.6rem;
           margin-top: 15px;
@@ -44,18 +42,15 @@
           background-color: #fff;
           border: 1px solid #ced4da;
           border-radius: 0.25rem;
-          transition: border-color ease-in-out .15s,
-          box-shadow ease-in-out .15s; 
-         
+          transition: border-color ease-in-out 0.15s,
+            box-shadow ease-in-out 0.15s;
         }
 
-        .form-control:hover{
-            border: 1px solid #f0326b;
-            
+        .form-control:hover {
+          border: 1px solid #f0326b;
         }
 
         .btnForm {
-         
           width: 100%;
           border: none;
           padding: 15px 0;
@@ -67,8 +62,52 @@
           cursor: pointer;
           text-transform: uppercase;
         }
+      }
+    }
+  }
 
-        
+  .cards-Section9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    .card {
+      width: 33%;
+      min-width: 250px;
+      padding: 0 15px;
+      text-align: center;
+      .card-body {
+        background-color: #fff;
+        padding: 40px 0;
+        border-radius: 3px;
+        p {
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-size: 24px;
+          margin-bottom: 8px;
+        }
+        ul {
+          margin-bottom: 16px;
+          li {
+            color: #9a9a9a;
+          }
+        }
+        .logos {
+          display: flex;
+          justify-content: center;
+          padding-top: 10px;
+          height: 35.2px;
+          li {
+            margin: 0 4px;
+            a {
+              padding: 10px;
+              .logo {
+                color: #f0326b;
+              }
+            }
+          }
+        }
       }
     }
   }
