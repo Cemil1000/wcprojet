@@ -21,10 +21,10 @@ export default function Section2() {
         }
     ]
     
-    const list = talent.map(elem=>{
+    const list = talent.map((elem, index)=>{
         return(
             <>
-                <div className="card ">
+                <div key={"cardS2"+index} className="card ">
                     <p>{elem.icon}</p>
                     <h3>{elem.title}</h3>
                     <p>{elem.description}</p>
