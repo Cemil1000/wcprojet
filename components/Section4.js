@@ -48,7 +48,7 @@ export default function Section4() {
         <div key={"cardS4"+index} className="cardPortfolio" >
           {elem.img}
           <div className="caption">
-            <a className="search-icon" href={elem.rootImg} data-lightbox="image-1">
+            <a className="search-icon" href={elem.rootImg}>
             <AiOutlineSearch size={"35"} />
             </a>
             <h4><a href={elem.titreLien}>{elem.titre}</a></h4>
