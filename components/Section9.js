@@ -59,11 +59,11 @@ class Section9 extends Component {
             }
         ]
     
-        const service = services.map(elem=>{
+        const service = services.map((elem, index)=>{
             console.log(elem);
             return(
                 <>
-                    <div className="card">
+                    <div key={"cardS9 "+ index} className="card">
                         <div className="card-body">
                             <p>{elem.icon}</p>
                             <h3>{elem.titre}</h3>
