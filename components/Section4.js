@@ -3,7 +3,7 @@ import {AiOutlineSearch} from 'react-icons/ai'
 
 const allCategories = ['All', 'Photography', 'Ios App', 'Development', 'Design']
 
-export default function Test() {
+export default function Section4() {
 
     const items=[{
         id: 1,
