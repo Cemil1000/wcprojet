@@ -72,11 +72,11 @@ export default function Section4() {
         </div>
 
         <div className="portfolio-filter">
-          <button type="button" data-filter="all" className="mixitup-control-active">All </button>
-          <button type="button" data-filter="all" className="mixitup-control-active">PHOTOGRAPHY </button>
-          <button type="button" data-filter="all" className="mixitup-control-active">IOS APP</button>
-          <button type="button" data-filter="all" className="mixitup-control-active">DEVELOPMENT </button>
-          <button type="button" data-filter="all" className="mixitup-control-active">DESIGN </button>
+          <button type="button">All </button>
+          <button type="button">PHOTOGRAPHY </button>
+          <button type="button">IOS APP</button>
+          <button type="button">DEVELOPMENT </button>
+          <button type="button">DESIGN </button>
         </div>
 
         <div className="allCards">

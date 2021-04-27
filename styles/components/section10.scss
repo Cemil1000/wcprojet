@@ -1,0 +1,78 @@
+#section10 {
+  padding: 150px 0;
+
+  .company {
+    ul {
+      display: flex;
+      justify-content: center;
+      border: 1px solid transparent;
+      
+      li {
+        margin: 0 3px;
+        border-radius: 0;
+        text-transform: capitalize;
+    
+        .link.active {
+          background-color: #f0326b;
+          color: #fff;       
+        }
+
+        .link {
+          display: block;
+          padding: 0.5rem 1rem;
+          background: #f9f9f9;
+          color: #666;
+          text-transform: capitalize;
+          padding: 10px 16px;
+         
+        }
+        .link:hover {
+          transition: background-color 0.4s;
+          background: #f0326b;
+          color: #fff;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: center;
+      padding-top: 30px;
+
+      .textLeft {
+        width: 50%;
+        text-align: start;
+        padding: 0 20px;
+
+        h2 {
+          margin: 0px 0px 8px;
+          padding-top: 80px;
+          width: 60%;
+          margin-top: 0;
+          font-weight: 600;
+          font-size: 2rem;
+        }
+        p {
+          color: #9a9a9a;
+          font-size: 100%;
+          margin-top: 0;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .imgRight {
+        width: 50%;
+        padding: 0 20px;
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 0.25rem;
+          box-shadow: 0px 0px 5px 0px black;
+        }
+      }
+    }
+  }
+}
