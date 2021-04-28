@@ -1,4 +1,4 @@
-import {IoLocationSharp, IoCall, IoPersonCircleSharp}from 'react-icons/Io5'
+import {IoLocationSharp, IoCall, IoPersonCircleSharp, IoLogoLinkedin}from 'react-icons/Io5'
 import {ImFacebook, ImDribbble, ImInstagram} from "react-icons/im";
 import {IoLogoTwitter} from "react-icons/Io";
 import {TiSocialGooglePlus} from "react-icons/ti";
@@ -50,11 +50,11 @@ class Section9 extends Component {
                 icon: <IoPersonCircleSharp size={"50"} className="icon-Section2"/>,
                 titre: "We are social",
                 description: <ul className="logos">
-                                <li><a href=""><ImFacebook size={"15"} className="logo"/></a></li>
-                                <li><a href=""><IoLogoTwitter size={"15"} className="logo"/></a></li>
-                                <li><a href=""><TiSocialGooglePlus size={"20"} className="logo"/></a></li>
-                                <li><a href=""><ImDribbble size={"15"} className="logo"/></a></li>
-                                <li><a href=""><ImInstagram size={"15"} className="logo"/></a></li>
+                                <li><a href=""><ImFacebook size={"17"} className="logo"/></a></li>
+                                <li><a href=""><IoLogoTwitter size={"17"} className="logo"/></a></li>
+                                <li><a href=""><IoLogoLinkedin size={"17"} className="logo"/></a></li>
+                                <li><a href=""><ImDribbble size={"17"} className="logo"/></a></li>
+                                <li><a href=""><ImInstagram size={"17"} className="logo"/></a></li>
                             </ul>
             }
         ]
