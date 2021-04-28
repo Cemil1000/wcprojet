@@ -30,6 +30,7 @@
   .allCards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     .cardPortfolio:hover {
       /* if hover alors => visibility: visible; */
@@ -41,8 +42,9 @@
 
     .cardPortfolio {
       position: relative;
-      width: 33.333%;
-
+      max-width: 33.333%;
+      min-width: 170px;
+      margin: 0 auto;
       img {
         max-width: 100%;
         height: auto;
