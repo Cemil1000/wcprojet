@@ -3,43 +3,43 @@ import {AiOutlineSearch} from 'react-icons/ai'
 
 const allCategories = ['All', 'Photography', 'Ios App', 'Development', 'Design']
 
-export default function Test() {
+export default function Section4() {
 
     const items=[{
         id: 1,
         img: <img src="img/portfolio/portfolio-1.jpg" alt="" />,
-        title:"AirBnB Postcard",
-        category: 'Design'
+        titre:"AirBnB Postcard",
+        category: ['Design']
       },
       {
         id: 2,
         img: <img src="img/portfolio/portfolio-2.jpg" alt="" />,
-        title:"AirBnB Postcard",
-        category: 'Ios App'
+        titre:"AirBnB Postcard",
+        category: ['Ios App', 'Design']
       },
       {
         id: 3,
         img: <img src="img/portfolio/portfolio-3.jpg" alt="" />,
-        title:"AirBnB Postcard",
-        category: 'Photography'
+        titre:"AirBnB Postcard",
+        category: ['Photography', 'Development']
       },
       {
         id: 4,
         img: <img src="img/portfolio/portfolio-4.jpg" alt="" />,
         titre:"AirBnB Postcard",
-        category: 'Photography'
+        category: ['Photography', 'Ios App']
       },
       {
         id: 5,
         img: <img src="img/portfolio/portfolio-5.jpg" alt="" />,
         titre:"AirBnB Postcard",
-        category: 'Design'
+        category: ['Design']
       },
       {
         id: 6,
         img: <img src="img/portfolio/portfolio-1.jpg" alt="" />,
         titre:"AirBnB Postcard",
-        category: 'Development'
+        category: ['Development', 'Design']
     }]
 
     const [menuItem, setMenuItem] = useState(items)
@@ -51,7 +51,7 @@ export default function Test() {
             return
         }
 
-        const filteredData = items.filter(item => item.category === button)
+        const filteredData = items.filter(item => item.category.includes(button))
         setMenuItem(filteredData)
     }
 
@@ -64,7 +64,7 @@ export default function Test() {
                         <a className="search-icon" href="#">
                             <AiOutlineSearch size={"35"} />
                         </a>
-                        <h4><a href="#">{item.title}</a></h4>
+                        <h4><a href="#">{item.titre}</a></h4>
                     </div>
                 </div>
             </>
