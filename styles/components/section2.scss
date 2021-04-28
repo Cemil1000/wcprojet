@@ -1,94 +1,90 @@
-#section2{
-    .cards-Section2{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding: 70px 0;
-        .card{
-            max-width: 33%;
-            min-width: 250px;
-            padding: 30px 35px;
-            p{
-                text-align: center;
-                color: #777777;
-            }
-            h3{
-                text-align: center;
-                font-size: 18px;
-                padding-bottom: 8px;
-            }
-            .icon-Section2{
-                margin: auto;
-                color: #f0326b;
-                margin-bottom: 15px;
-            }
-        }
+#section2 {
+  .cards-Section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    .card {
+      max-width: 33%;
+      min-width: 250px;
+      padding: 30px 35px;
+      p {
+        text-align: center;
+        color: #777777;
+      }
+      h3 {
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 8px;
+      }
+      .icon-Section2 {
+        margin: auto;
+        color: #f0326b;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .about {
+    padding: 70px 0;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 0;
     }
 
-    .about {
-        padding: 70px 0;
-        max-width: 905px;
-        margin: 0 auto;
-        .grid-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 0 5%;
-            grid-template-areas:
-                "imgCreativity textCreativity"
-                "textBox ImgBox";
-        }
-
-        h2 {
-            font-size: 40px;
-            font-weight: bold;
-            margin-top: 0;
-        }
-
-        p {
-            font-family: "Titillium Web", sans-serif;
-            color: #9a9a9a;
-            line-height: 1.6;
-            margin-top: 20px;
-            font-size: 15px;
-        }
-
-        img {
-            box-shadow: 0px 0px 5px 0px;
-            border-radius: .25rem;
-            vertical-align: middle;
-        }
-
-        .aboutSpace {
-            margin-bottom: 6vh;
-        }
-
-        .textCreativity {
-            padding: 50px 0;
-        }
-
-        .textBox {
-            padding: 50px 0;
-
-        }
-
-        .textCreativity {
-            grid-area: textCreativity;
-        }
-
-        .ImgBox {
-            grid-area: ImgBox;
-        }
-
-        .textBox {
-            grid-area: textBox;
-        }
-
-        .imgCreativity {
-            grid-area: imgCreativity;
-        }
-
-
+    p {
+      font-family: "Titillium Web", sans-serif;
+      color: #9a9a9a;
+      line-height: 1.6;
+      margin-top: 20px;
+      font-size: 15px;
     }
+
+    img {
+      box-shadow: 0px 0px 5px 0px;
+      border-radius: 0.25rem;
+      vertical-align: middle;
+    }
+
+    .creativity {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+      .imgCreativity {
+        padding: 0 25px;
+        margin: 0 0 0 95px;
+      }
+      .textCreativity {
+        padding: 0 15px;
+        .containCreativity {
+          padding: 50px 0;
+          max-width: 445px;
+        }
+      }
+    }
+
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+      margin-top: 50px;
+      .aboutSpace {
+        margin-bottom: 6vh;
+      }
+      .imgBox {
+        padding: 0 15px;
+        margin: 0 0 0 9px;
+      }
+      .textBox {
+        padding: 0 15px;
+        margin: 0 0 0 95px;
+        .containBox {
+          padding: 50px 0px;
+          max-width: 445px;
+        }
+      }
+    }
+  }
 }
