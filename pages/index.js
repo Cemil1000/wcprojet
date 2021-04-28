@@ -9,6 +9,8 @@ import Section6 from "../components/Section6";
 import Section7 from "../components/Section7";
 import Section8 from "../components/Section8";
 import Section9 from "../components/Section9";
+import Section10 from "../components/Section10";
+import Section12 from "../components/Section12";
 import HomeVideo from "../components/HomeVideo";
 
 export default function Home() {
