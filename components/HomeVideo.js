@@ -11,7 +11,7 @@ export default function HomeVideo() {
   return (
     <>
       <section id="allVideo">
-        <div className="grid-container container">
+        <div className="allVideo container">
           <div className="video">
             <FaPlayCircle
               onClick={activatePlay}
@@ -20,7 +20,7 @@ export default function HomeVideo() {
             />
 
             <iframe
-              width="572"
+              width="540"
               height="360"
               src="https://www.youtube.com/embed/g3-VxLQO7do"
               title="YouTube video player"
