@@ -1,39 +1,68 @@
-#section12{
-    .check{
+.section12 {
+  padding: 100px 0;
+  .check {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .image {
+      width: 50%;
+      min-width: 450px;
+      text-align: center;
+      padding: 0 15px;
+      img {
+        box-shadow: 0px 0px 30px -10px;
+        border-radius: 0.25rem;
+      }
+    }
+    .section12-body {
+      max-width: 50%;
+      min-width: 450px;
+      padding: 0 15px;
+      h2 {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+      p {
+        color: #9a9a9a;
+        margin-bottom: 16px;
+      }
+      div {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        .image{
-            width: 50%;
-            min-width: 450px;
-            text-align: center;
-            padding: 0 15px;
-            img{
-                box-shadow: 0px 0px 30px -10px;
-                border-radius: .25rem;
-            }
+        color: #777;
+        div {
+          width: 50%;
         }
-        .section12-body{
-            max-width: 50%;
-            min-width: 450px;
-            padding: 0 15px;
-            h2{
-                font-size: 32px;
-                margin-bottom: 8px;
-            }
-            p{
-                color: #9a9a9a;
-                margin-bottom: 16px;
-            }
-            div{
-                display: flex;
-                flex-wrap: wrap;
-                color: #777;
-                div{
-                    width: 50%;
-                }
-            }
-        }
+      }
     }
+  }
+
+  #section12 {
+    background: transparent;
+    padding: 100px 0;
+    text-align: center;
+    overflow-y: auto;
+    overflow: hidden;
+
+    .allSlide {
+      color: #fff;
+      width: 25%;
+      .images-wrap {
+        background-color: transparent;
+        display: flex;
+
+        .each-slide {
+          .imgProfil {
+            img {
+              display: inline-block;
+              border-radius: 100%;
+              width: 250px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
 }

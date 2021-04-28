@@ -9,10 +9,6 @@ import Section6 from "../components/Section6";
 import Section7 from "../components/Section7";
 import Section8 from "../components/Section8";
 import Section9 from "../components/Section9";
-import Section10 from "../components/Section10";
-import Section11 from "../components/Section11";
-import Section12 from "../components/Section12";
-import Section13 from "../components/Section13";
 import HomeVideo from "../components/HomeVideo";
 
 export default function Home() {
@@ -28,12 +24,7 @@ export default function Home() {
         <Section7 />
         <Section8 />
         <Section9 />
-        <Section10 />
-        <Section11 />
-        <Section12 />
-        <Section13 />
       </ Layout>
-      
     </>
   );
 }
