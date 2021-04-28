@@ -4,21 +4,21 @@ import { Slide } from "react-slideshow-image";
 export default function Section12() {
   const allCardsSlide = [
     {
-      img: <img src="img/client-logo/logo1.png" alt="logo" />,
+      img: <img src="img/client-logo/logo-1.png" alt="logo" />
     },
     {
-      img: <img src="img/client-logo/logo-2.png" alt="logo" />,
+      img: <img src="img/client-logo/logo-2.png" alt="logo" />
     },
     {
-      img: <img src="img/client-logo/logo-3.png" alt="logo" />,
+      img: <img src="img/client-logo/logo-3.png" alt="logo" />
     },
     {
-      img: <img src="img/client-logo/logo-4.png" alt="logo" />,
+      img: <img src="img/client-logo/logo-4.png" alt="logo" />
     },
     {
-      img: <img src="img/client-logo/logo-5.png" alt="logo" />,
-    },
-  ];
+      img: <img src="img/client-logo/logo-5.png" alt="logo" />
+    }
+  ]
 
   const cardsSlide = allCardsSlide.map((elem, index) => {
     return (
@@ -42,7 +42,7 @@ export default function Section12() {
   const icon = <IoMdCheckboxOutline size={"14"} className="icon" />;
   return (
     <>
-      <section className="section12">
+      <section className="section12 separation">
         <div className="container check">
           <div className="image">
             <img src="./img/about/about-1.jpg" alt="" />
