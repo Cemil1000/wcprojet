@@ -1,5 +1,4 @@
 #section9 {
-  padding: 100px 0;
   background: #f9f9f9;
 
   .allInfo {
@@ -43,10 +42,9 @@
           border-radius: 0.25rem;
           transition: border-color ease-in-out 0.15s,
             box-shadow ease-in-out 0.15s;
-        }
-
-        .form-control:hover {
-          border: 1px solid #f0326b;
+          &:hover{
+            border: 1px solid #f0326b;
+          }
         }
 
         .Error {

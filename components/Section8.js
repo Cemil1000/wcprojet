@@ -38,7 +38,6 @@ export default function Section8() {
           <article key={"cardS8"+index} className="card">
             {elem.img}
             <h3>{elem.title_link}</h3>
-  
             <ul>
               <li className="liLeft">
                 <span>{elem.prefix} </span>
@@ -49,9 +48,7 @@ export default function Section8() {
                 {elem.liRight_spanDate}
               </li>
             </ul>
-  
             <p>{elem.description}</p>
-  
             <div className="btnArticle"><a href="#">Read more</a></div>
           </article>
       </>
@@ -60,7 +57,7 @@ export default function Section8() {
   
   return (
     <>
-      <section id="section8">
+      <section id="section8" className="separation">
         <div id="titre-general">
           <h4>OUR UNTOLD STORY</h4>
           <h2>Blog.</h2>
@@ -70,7 +67,6 @@ export default function Section8() {
             reiciendis quasi itaque, obcaecati atque sit!
           </p>
         </div>
-
         <div className="blog container">
           <div className="cardsArticle">
             {cardsList}

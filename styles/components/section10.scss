@@ -1,6 +1,4 @@
 #section10 {
-  padding: 150px 0;
-
   .company {
     ul {
       cursor: pointer;
@@ -15,13 +13,13 @@
         color: #666;
         padding: 10px 16px;
         margin: 0 3px;
-      }
 
-      li:hover {
-        transition: background-color 0.4s;
-        background: #f0326b;
-        color: #fff;
-        text-transform: capitalize;
+        &:hover{
+          transition: background-color 0.4s;
+          background: #f0326b;
+          color: #fff;
+          text-transform: capitalize;
+        }
       }
 
       .active {

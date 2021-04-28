@@ -24,7 +24,7 @@ export default function Section2() {
     const list = talent.map((elem, index)=>{
         return(
             <>
-                <div key={"cardS2"+index} className="card ">
+                <div key={"cardS2"+index} className="card">
                     <p>{elem.icon}</p>
                     <h3>{elem.title}</h3>
                     <p>{elem.description}</p>
@@ -45,7 +45,7 @@ export default function Section2() {
                         <div className="imgCreativity">
                             <img
                                 src="img/about/about-1.jpg"
-                                alt="image d'un homme sur son ordinateur"
+                                alt="Un homme sur son ordinateur"
                             />
                         </div>
                         <div className="textCreativity">
@@ -75,7 +75,7 @@ export default function Section2() {
                         <div className="ImgBox aboutSpace">
                             <img
                                 src="img/about/about-2.jpg"
-                                alt="image d'un homme qui réfléchit"
+                                alt="Image d'un homme qui réfléchit"
                             />
                         </div>
                     </div>
@@ -84,4 +84,3 @@ export default function Section2() {
         </>
     )
 }
-

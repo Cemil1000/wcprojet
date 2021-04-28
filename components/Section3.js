@@ -2,7 +2,6 @@ import { VscBriefcase } from "react-icons/Vsc";
 import { IoAlarmOutline } from "react-icons/Io5";
 import { AiOutlineMail, AiFillLock } from "react-icons/ai";
 
-
 export default function Section3() {
 
   const allCards = [
@@ -38,8 +37,8 @@ export default function Section3() {
   const cardsList = allCards.map((elem, index) => {
     return (
       <>
-        <div key={"cardS3"+index} className={"card "}>
-          <span className={"count "}>{elem.count}</span>
+        <div key={"cardS3"+index} className="card">
+          <span className="count">{elem.count}</span>
           {elem.icon}
           <h4>{elem.title}</h4>
           <p>{elem.description}</p>
@@ -50,7 +49,7 @@ export default function Section3() {
 
   return (
     <>
-      <section id="section3">
+      <section id="section3" className="separation">
         <div id="titre-general">
           <h4>HOW WE WORKS</h4>
           <h2>Our Work Process</h2>
@@ -60,6 +59,7 @@ export default function Section3() {
             reiciendis quasi itaque, obcaecati atque sit!
           </p>
         </div>
+        
         <div className="container">
           <div className="cardsOurWork">
             {cardsList}

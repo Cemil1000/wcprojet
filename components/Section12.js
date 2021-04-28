@@ -1,14 +1,13 @@
-
 import {IoMdCheckboxOutline}from 'react-icons/Io'
 
 export default function Section12() {
     const icon = <IoMdCheckboxOutline size={"14"} className="icon" />
     return (
         <>
-            <section id="section12">
+            <section id="section12" className="separation">
                 <div className="container check">
                     <div className="image">
-                        <img src="./img/about/about-1.jpg" alt=""/>
+                        <img src="./img/about/about-1.jpg" alt="Un homme sur son ordinateur"/>
                     </div>
                     <div className="section12-body">
                         <h2>We care about our work</h2>
