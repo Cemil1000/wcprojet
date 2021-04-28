@@ -13,7 +13,6 @@
     gap: 0% 4%;
     grid-template-areas: "video videoText";
 
-
     .video{
       position: relative;
       z-index: 1;
@@ -24,30 +23,27 @@
         top: 50%; left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
-        
       }
 
       .icon-homeVideo:hover{
         cursor:pointer;
         width: 95px;
         height: 95px;
-
       }
 
       .imgVideo{
-          position: absolute;
-          z-index: 2;
-          left: 0;
-          
+        position: absolute;
+        z-index: 2;
+        left: 0;
       }
 
       .supp-imgIconVideo{
         display: none;
       }
-
     }
 
     .videoText {
+
       h2 {
         margin-bottom: 20px;
         color: #fff;
@@ -73,13 +69,11 @@
           text-transform: uppercase;
           border: 1px solid transparent;
           border-radius: 2px;
+
+          &:hover{
+            background-image: none;
+          }
         }
-
-        a:hover {
-          background-image: none;
-
-        }
-
       }
     }
   }

@@ -1,7 +1,7 @@
 import { FaPlayCircle } from "react-icons/fa";
 import { useState } from "react";
 
-export default function HomeVideo(props) {
+export default function HomeVideo() {
   const [contenuVideo, setContenuVideo] = useState("affiche-imgIconVideo");
 
   function activatePlay() {

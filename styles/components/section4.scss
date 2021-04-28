@@ -1,5 +1,4 @@
 #section4 {
-  padding: 100px 0;
   background: #fff;
 
   .portfolio-filter {
@@ -19,9 +18,14 @@
       color: #777;
       outline: none;
       background: none;
-    }
 
-    button:hover {
+      &:hover{
+        padding-bottom: 5px;
+        border-bottom: 2px solid #f0326b;
+        color: #000;
+      }
+    }
+    .active{
       padding-bottom: 5px;
       border-bottom: 2px solid #f0326b;
       color: #000;
@@ -31,29 +35,29 @@
     display: flex;
     flex-wrap: wrap;
 
-    .cardPortfolio:hover {
-      /* if hover alors => visibility: visible; */
-      background: #f0326b;
-      .caption {
-        visibility: visible;
-      }
-    }
-
     .cardPortfolio {
       position: relative;
       width: 33.333%;
 
+      &:hover{
+        background: #f0326b;
+          .caption {
+            visibility: visible;
+        }
+      }
+      
       img {
         max-width: 100%;
         height: auto;
         vertical-align: middle;
         border-style: none;
-      }
-      img:hover {
-        opacity: 0.1;
-        transition: 0.3s all;
-      }
 
+        &:hover{
+          opacity: 0.1;
+          transition: 1s all;
+        }
+      }
+      
       .caption {
         /* if No-hover alors => visibility: hidden; */
         visibility: hidden;

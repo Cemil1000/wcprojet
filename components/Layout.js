@@ -31,8 +31,8 @@ export default function Layout({ children }) {
                 <div>
 
                     <div className="grid-container container">
+
                         <div className="ABOUT">
-      
                             <h3>ABOUT</h3>
                             <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. 
                             Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
@@ -67,7 +67,6 @@ export default function Layout({ children }) {
                         Get More <span className="spanCopyright"> Free Bootstrap Templates </span> 
                         </p>
                     </div>
-
                 </div>
             </footer>
         </>

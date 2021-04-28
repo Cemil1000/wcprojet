@@ -2,27 +2,25 @@ import { IoMdCopy } from "react-icons/Io";
 import { IoAlarmOutline, IoBookOutline } from "react-icons/Io5";
 
 export default function Section2() {
-  const talent = [
-    {
-      icon: <IoMdCopy size={"40"} className="icon-Section2" />,
-      title: "WordPress Theme",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.",
-    },
-    {
-      icon: <IoAlarmOutline size={"40"} className="icon-Section2" />,
-      title: "Responsive Design",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.",
-    },
-    {
-      icon: <IoBookOutline size={"40"} className="icon-Section2" />,
-      title: "Media & Advertisement",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.",
-    },
-  ];
 
+    const talent =[
+        {
+            icon: <IoMdCopy size={"40"} className="icon-Section2"/>,
+            title: 'WordPress Theme',
+            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.'
+        },
+        {
+            icon: <IoAlarmOutline size={"40"} className="icon-Section2"/>,
+            title: 'Responsive Design',
+            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.'
+        },
+        {
+            icon: <IoBookOutline size={"40"} className="icon-Section2"/>,
+            title: 'Media & Advertisement',
+            description: 'Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.'
+        }
+    ]
+    
   const list = talent.map((elem, index) => {
     return (
       <>

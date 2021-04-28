@@ -1,7 +1,7 @@
 export default function Section1() {
     return (
         <>
-            <section id="section1">
+            <section id="section1" className="separation">
                 <div className="container">
                     <div className="titre">
                         <h2>We have explored the digital landscape with passion for a long time</h2>

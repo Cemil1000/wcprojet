@@ -1,28 +1,26 @@
-#section2 {
-  .cards-Section2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 70px 0;
-    .card {
-      max-width: 33%;
-      min-width: 250px;
-      padding: 30px 35px;
-      p {
-        text-align: center;
-        color: #777777;
-      }
-      h3 {
-        text-align: center;
-        font-size: 18px;
-        padding-bottom: 8px;
-      }
-      .icon-Section2 {
-        margin: auto;
-        color: #f0326b;
-        margin-bottom: 15px;
-      }
+#section2{
+    .cards-Section2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px 0;
+        .card{
+            max-width: 33.333%;
+            min-width: 250px;
+            padding: 30px 35px;
+            text-align: center;
+            p{
+                color: #777777;
+            }
+            h3{
+                font-size: 18px;
+                padding-bottom: 8px;
+            }
+            .icon-Section2{
+                color: #f0326b;
+                margin-bottom: 15px;
+            }
+        }
     }
   }
 
