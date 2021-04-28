@@ -1,0 +1,34 @@
+.section12 {
+  
+
+  #section12 {
+    background: transparent;
+    padding: 100px 0;
+    text-align: center;
+    overflow-y: auto;
+    overflow: hidden;
+
+    .allSlide {
+      color: #fff;
+      width: 25%;
+      .images-wrap {
+        background-color: transparent;
+        display: flex;
+
+        .each-slide {
+
+          .imgProfil {
+            img {
+              display: inline-block;
+              border-radius: 100%;
+              width: 250px;
+              height: auto;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
