@@ -2,6 +2,7 @@ import {IoMdCopy}from 'react-icons/Io'
 import {IoAlarmOutline, IoBookOutline}from 'react-icons/Io5'
 
 export default function Section11() {
+
     const services =[
         {
             icon: <IoMdCopy size={"30"} className="icon-Section2"/>,
@@ -36,7 +37,6 @@ export default function Section11() {
     ]
 
     const service = services.map((elem, index)=>{
-        // console.log(elem);
         return(
             <>
                 <div key={"cardS11"+index} className="card">
@@ -57,7 +57,7 @@ export default function Section11() {
     
     return (
         <>
-            <section id="section11">
+            <section id="section11" className="separation">
                 <div id="titre-general">
                     <h4>A LIST OF SERVICES</h4>
                     <h2>Our Service.</h2>
