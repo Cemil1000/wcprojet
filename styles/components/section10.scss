@@ -3,35 +3,30 @@
 
   .company {
     ul {
+      cursor: pointer;
       display: flex;
       justify-content: center;
       border: 1px solid transparent;
-      
-      li {
-        margin: 0 3px;
-        border-radius: 0;
-        text-transform: capitalize;
-    
-        .link.active {
-          background-color: #f0326b;
-          color: #fff;       
-        }
 
-        .link {
-          display: block;
-          padding: 0.5rem 1rem;
-          background: #f9f9f9;
-          color: #666;
-          text-transform: capitalize;
-          padding: 10px 16px;
-         
-        }
-        .link:hover {
-          transition: background-color 0.4s;
-          background: #f0326b;
-          color: #fff;
-          text-transform: capitalize;
-        }
+      li {
+        display: block;
+        padding: 0.5rem 1rem;
+        background: #f9f9f9;
+        color: #666;
+        padding: 10px 16px;
+        margin: 0 3px;
+      }
+
+      li:hover {
+        transition: background-color 0.4s;
+        background: #f0326b;
+        color: #fff;
+        text-transform: capitalize;
+      }
+
+      .active {
+        background-color: #f0326b;
+        color: #fff;
       }
     }
 
