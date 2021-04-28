@@ -2,12 +2,14 @@
     background: #F7F7F7;
     padding: 100px 0;
     .container{
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-        grid-column-gap: 50px;
-        grid-template-areas: "titre text";
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         .titre{
-            grid-area: titre;
+            max-width: 40%;
+            min-width: 240px;
+            padding: 0 15px;
             h2{
                 position: relative;
                 font-size: 2rem;
@@ -24,8 +26,10 @@
             }
         }
         .text{
-            grid-area: text;
             color: #9A9A9A;
+            max-width: 60%;
+            min-width: 380px;
+            padding: 0 15px;
             .padding{
                 padding-bottom: 20px;
             }
