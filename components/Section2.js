@@ -50,7 +50,7 @@ export default function Section2() {
             </div>
             <div className="textCreativity">
               <div className="containCreativity">
-                <h2>Creativity is in our blood</h2>
+                <h2>Creativity is in our<br/> blood</h2>
                 <p>
                   Curabitur felis nibh, imperdiet eu erat non, luctus cursus
                   lectus. Donec maximus diam leo, sed fringilla nisl auctor
@@ -67,7 +67,7 @@ export default function Section2() {
           <div className="box">
             <div className="textBox">
               <div className="containBox">
-                <h2>We think out of the Box</h2>
+                <h2>We think out of the<br/> Box</h2>
                 <p>
                   Curabitur felis nibh, imperdiet eu erat non, luctus cursus
                   lectus. Donec maximus diam leo, sed fringilla nisl auctor
