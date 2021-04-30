@@ -28,24 +28,21 @@ export default function Layout({ children }) {
             {children}
 
             <footer>
-                <div>
-
-                    <div className="grid-container container">
-
-                        <div className="ABOUT">
+                    <div className="container">
+                        <div>
                             <h3>ABOUT</h3>
                             <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. 
                             Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
                         </div>
 
-                        <div className="our-service">
+                        <div>
                             <h3 className="aColumn">OUR SERVICE</h3>
                             <a href="#">Graphic Design</a>
                             <a href="#">Web Design</a>
                             <a href="#">Web Development</a>
                         </div>
 
-                        <div className="quick-links">
+                        <div>
                             <h3 className="aColumn">QUICK LINKS</h3>
                             <a href="#">Partners</a>
                             <a href="#">About</a>
@@ -53,7 +50,7 @@ export default function Layout({ children }) {
                             <a href="#">Badges</a>
                         </div>
 
-                        <div className="subscribe-now">
+                        <div>
                             <h3>SUBSCRIBE NOW</h3>
                             <input type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email"></input>
                             <button type="submit" className="btnFooter ">Subscribe Now</button>
@@ -67,7 +64,6 @@ export default function Layout({ children }) {
                         Get More <span className="spanCopyright"> Free Bootstrap Templates </span> 
                         </p>
                     </div>
-                </div>
             </footer>
         </>
     )
