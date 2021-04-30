@@ -17,10 +17,10 @@ header {
       text-decoration: none;
       color: #707d8f;
       font-size: 15px;
-    }
 
-    a:hover {
-      color: #f0326b;
+      &:hover{
+         color: #f0326b;
+      }
     }
 
     ul {
@@ -52,10 +52,10 @@ header {
       display: block;
       text-align: left;
       font-size: 13px;
-    }
 
-    a:hover {
-      color: #f0326b;
+      &:hover{
+         color: #f0326b;
+      }
     }
   }
 
@@ -68,3 +68,5 @@ header {
     align-content: center;
   }
 }
+
+
