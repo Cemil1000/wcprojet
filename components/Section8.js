@@ -67,10 +67,8 @@ export default function Section8() {
             reiciendis quasi itaque, obcaecati atque sit!
           </p>
         </div>
-        <div className="blog container">
-          <div className="cardsArticle">
-            {cardsList}
-            </div>
+        <div className="cardsArticle container">
+          {cardsList}
         </div>
       </section>
     </>

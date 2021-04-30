@@ -7,7 +7,7 @@ export default function Section10() {
       btnName: "Our Philosophy",
       content: (
         <>
-          <h2>We Create Designs and technology</h2>
+          <h2>We Create Designs<br/>and technology</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
             voluptate molestias, quaerat quo natus dolor harum voluptatibus modi
