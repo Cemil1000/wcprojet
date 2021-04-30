@@ -4,7 +4,6 @@
       cursor: pointer;
       display: flex;
       justify-content: center;
-      border: 1px solid transparent;
 
       li {
         display: block;
@@ -30,9 +29,9 @@
 
     .row {
       display: flex;
-      flex-direction: row;
-      text-align: center;
+      flex-wrap: wrap;
       justify-content: center;
+      align-items: center;
       padding-top: 30px;
 
       .textLeft {
@@ -41,10 +40,7 @@
         padding: 0 20px;
 
         h2 {
-          margin: 0px 0px 8px;
-          padding-top: 80px;
-          width: 60%;
-          margin-top: 0;
+          margin-bottom: 8px;
           font-weight: 600;
           font-size: 2rem;
         }
@@ -65,6 +61,20 @@
           border-radius: 0.25rem;
           box-shadow: 0px 0px 5px 0px black;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 770px){
+  #section10 .company{
+    max-width: 540px;
+    .row{
+      .textLeft{
+        width: 100%;
+      }
+      .imgRight{
+        width: 100%;
       }
     }
   }

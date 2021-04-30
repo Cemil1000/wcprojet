@@ -6,7 +6,7 @@
     align-items: center;
     padding: 70px 0;
     .card {
-      max-width: 33%;
+      width: 33%;
       min-width: 250px;
       padding: 30px 35px;
       p {
@@ -86,5 +86,11 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 575px){
+  #section2 .cards-Section2 .card{
+    width: 100%;  
   }
 }
