@@ -74,10 +74,10 @@
           text-transform: uppercase;
           border: 1px solid transparent;
           border-radius: 2px;
-        }
-
-        a:hover {
-          background-image: none;
+          
+          &:hover{
+            background-image: none;
+          }
         }
       }
     }

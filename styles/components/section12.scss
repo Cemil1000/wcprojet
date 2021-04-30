@@ -1,5 +1,4 @@
 .section12 {
-  padding: 100px 0;
   .check {
     display: flex;
     flex-wrap: wrap;
@@ -40,11 +39,10 @@
 
   #section12 {
     background: transparent;
-    padding: 100px 0;
     text-align: center;
     overflow-y: auto;
     overflow: hidden;
-
+    margin-top: 50px;
     .allSlide {
       color: #fff;
       width: 25%;

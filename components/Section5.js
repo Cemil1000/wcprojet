@@ -34,7 +34,7 @@ export default function Section5() {
         return(
             <>
                 <div key={"cardS5"+index} className="card">
-                    <img src={elem.img} alt="Portrait photo"/>
+                    <img src={elem.img} alt={"Portrait photo de" + elem.nom}/>
                     <div className="card-body">
                         <h3>{elem.nom}</h3>
                         <span>{elem.role}</span>
@@ -53,7 +53,7 @@ export default function Section5() {
     
     return (
         <>
-            <section id="section5">
+            <section id="section5" className="separation">
                 <div id="titre-general">
                     <h4>Team member</h4>
                     <h2>Our Team.</h2>

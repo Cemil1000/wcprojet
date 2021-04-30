@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-export default function Section10(props) {
+export default function Section10() {
+
   const arrayBtn = [
     {
       btnName: "Our Philosophy",
@@ -20,10 +21,7 @@ export default function Section10(props) {
         </>
       ),
       imageContent: (
-        <img
-          src="img/company/company-image.jpg"
-          alt="homme qui écrit sur un tableau"
-        />
+        <img src="img/company/company-image.jpg" alt="Homme qui écrit sur un tableau" />
       ),
     },
     {
@@ -44,10 +42,7 @@ export default function Section10(props) {
         </>
       ),
       imageContent: (
-        <img
-          src="img/company/company-image-2.jpg"
-          alt="homme qui écrit sur un tableau"
-        />
+        <img src="img/company/company-image-2.jpg" alt="Un équipe en réunion" />
       ),
     },
     {
@@ -68,10 +63,7 @@ export default function Section10(props) {
         </>
       ),
       imageContent: (
-        <img
-          src="img/company/company-image-3.jpg"
-          alt="homme qui écrit sur un tableau"
-        />
+        <img src="img/company/company-image-3.jpg" alt="Plusieur personne qui travaille" />
       ),
     },
   ];
@@ -79,19 +71,15 @@ export default function Section10(props) {
 
   const listBtn = arrayBtn.map((elem) => (
     <li
-      onClick={() => {
-        setActiveButton(elem);
-      }}
-      className={`link ${
-        activeButton.btnName === elem.btnName ? "active" : ""
-      }`}
-    >
+      onClick={() => { setActiveButton(elem); }}
+      className={`link ${ activeButton.btnName === elem.btnName ? "active" : "" }`}>
       {elem.btnName}
     </li>
   ));
+
   return (
     <>
-      <section id="section10">
+      <section id="section10" className="separation">
         <div id="titre-general">
           <h4>LITTLE MORE BRIEF</h4>
           <h2>About Us.</h2>

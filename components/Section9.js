@@ -1,10 +1,8 @@
-import {IoLocationSharp, IoCall, IoPersonCircleSharp}from 'react-icons/Io5'
+import {IoLocationSharp, IoCall, IoPersonCircleSharp, IoLogoLinkedin}from 'react-icons/Io5'
 import {ImFacebook, ImDribbble, ImInstagram} from "react-icons/im";
 import {IoLogoTwitter} from "react-icons/Io";
-import {TiSocialGooglePlus} from "react-icons/ti";
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import {Component} from 'react';
-
 
 class Section9 extends Component {
     state = {  
@@ -18,14 +16,14 @@ class Section9 extends Component {
       
     check(e) {
         const { userName, userEmail, subject, message} = this.state
-            e.preventDefault()
-            if( userName === "" || userEmail === "" || subject === "" || message === "" ){
-               this.setState({classNameElement:"Error"} )
-            }
-            else{
-                this.setState({classNameElement:"Ok", btn:<input type="submit" id="contact-submit" className={"btnFormSending btn-transparent"} value="Sending..." disabled />} )
-            }
+        e.preventDefault()
+        if( userName === "" || userEmail === "" || subject === "" || message === "" ){
+            this.setState({classNameElement:"Error"} )
         }
+        else{
+            this.setState({classNameElement:"Ok", btn:<input type="submit" id="contact-submit" className={"btnFormSending btn-transparent"} value="Sending..." disabled />} )
+        }
+    }
 
     render(){
         const { userName, userEmail, subject, message, classNameElement, btn} = this.state
@@ -50,17 +48,16 @@ class Section9 extends Component {
                 icon: <IoPersonCircleSharp size={"50"} className="icon-Section2"/>,
                 titre: "We are social",
                 description: <ul className="logos">
-                                <li><a href=""><ImFacebook size={"15"} className="logo"/></a></li>
-                                <li><a href=""><IoLogoTwitter size={"15"} className="logo"/></a></li>
-                                <li><a href=""><TiSocialGooglePlus size={"20"} className="logo"/></a></li>
-                                <li><a href=""><ImDribbble size={"15"} className="logo"/></a></li>
-                                <li><a href=""><ImInstagram size={"15"} className="logo"/></a></li>
+                                <li><a href=""><ImFacebook size={"17"} className="logo"/></a></li>
+                                <li><a href=""><IoLogoTwitter size={"17"} className="logo"/></a></li>
+                                <li><a href=""><IoLogoLinkedin size={"17"} className="logo"/></a></li>
+                                <li><a href=""><ImDribbble size={"17"} className="logo"/></a></li>
+                                <li><a href=""><ImInstagram size={"17"} className="logo"/></a></li>
                             </ul>
             }
         ]
     
         const service = services.map((elem, index)=>{
-            console.log(elem);
             return(
                 <>
                     <div key={"cardS9 "+ index} className="card">
@@ -76,8 +73,7 @@ class Section9 extends Component {
     
         return (
             <>
-                <section id="section9">
-    
+                <section id="section9" className="separation">
                     <div id="titre-general">
                         <h4>DROP US A NOTE</h4>
                         <h2>Contact Us.</h2>
@@ -88,7 +84,7 @@ class Section9 extends Component {
                         </p>
                     </div>
                     
-                    <div className="allInfo container">
+                    <div className="container allInfo">
                         <div className="divLeft-map">
                             <div className="map">
                             
@@ -101,7 +97,6 @@ class Section9 extends Component {
                                    
                                     </InfoWindow>
                                 </Map> 
-                                
                             </div>
                         </div>
         
@@ -124,20 +119,17 @@ class Section9 extends Component {
                                 </div>						         
                             </form> 
                         </div>
-    
                     </div>
     
                     <div className="container cards-Section9">
                         {service}
                     </div>
-                    
                 </section>
             </>
         )
     }
-    
 }
 
 export default GoogleApiWrapper({
     apiKey: ("AIzaSyAt8A33yjU75xDVn2DEJrZssSA2yr_JMEc")
-  })(Section9)
+})(Section9)

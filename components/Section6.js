@@ -1,4 +1,5 @@
 export default function Section6() {
+    
     const paquets =[
         {
             categorie: "Basic",
@@ -44,7 +45,7 @@ export default function Section6() {
     
     return (
         <>
-            <section id="section6">
+            <section id="section6" className="separation">
                 <div id="titre-general">
                     <h4>Easy pricing</h4>
                     <h2>Pricing.</h2>
