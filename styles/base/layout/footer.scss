@@ -20,10 +20,10 @@ footer {
     color: #bdbdbd;
     font-size: 13px;
     line-height: 2rem;
-  }
 
-  a:hover {
-    color: #f0326b;
+    &:hover{
+      color: #f0326b;
+    }
   }
 
   .container {
@@ -36,7 +36,7 @@ footer {
     }
   }
 
-  #inputEmail {
+  .inputEmail {
     width: 100%;
     padding: 6px 12px;
     font-size: 1rem;
@@ -58,10 +58,10 @@ footer {
     text-transform: uppercase;
     border: 1px solid transparent;
     border-radius: 2px;
-  }
 
-  .btnFooter:hover {
-    background-image: none;
+    &:hover{
+      background-image: none;
+    }
   }
 
   .copyright {

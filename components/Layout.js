@@ -36,14 +36,14 @@ export default function Layout({ children }) {
                         </div>
 
                         <div>
-                            <h3 className="aColumn">OUR SERVICE</h3>
+                            <h3>OUR SERVICE</h3>
                             <a href="#">Graphic Design</a>
                             <a href="#">Web Design</a>
                             <a href="#">Web Development</a>
                         </div>
 
                         <div>
-                            <h3 className="aColumn">QUICK LINKS</h3>
+                            <h3>QUICK LINKS</h3>
                             <a href="#">Partners</a>
                             <a href="#">About</a>
                             <a href="#">FAQ’s</a>
@@ -52,7 +52,7 @@ export default function Layout({ children }) {
 
                         <div>
                             <h3>SUBSCRIBE NOW</h3>
-                            <input type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email"></input>
+                            <input type="email" className="inputEmail" aria-describedby="emailHelp" placeholder="Enter email"></input>
                             <button type="submit" className="btnFooter ">Subscribe Now</button>
                         </div>
                     </div>
