@@ -6,7 +6,6 @@
     align-items: center;
     .image {
       width: 50%;
-      min-width: 450px;
       text-align: center;
       padding: 0 15px;
       img {
@@ -15,8 +14,7 @@
       }
     }
     .section12-body {
-      max-width: 50%;
-      min-width: 450px;
+      width: 50%;
       padding: 0 15px;
       h2 {
         font-size: 32px;
@@ -49,18 +47,37 @@
       .images-wrap {
         background-color: transparent;
         display: flex;
-
         .each-slide {
           .imgProfil {
             img {
               display: inline-block;
               border-radius: 100%;
-              width: 250px;
+              width: 100%;
               height: auto;
             }
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 900px){
+  .section12 .check{
+    .image{
+      width: 100%;
+      text-align: start;
+    }
+    .section12-body{
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:485px){
+  .section12 .check .image{
+    img{
+      width: 100%;
     }
   }
 }
