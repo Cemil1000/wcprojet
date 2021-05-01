@@ -5,69 +5,50 @@ header {
 
   div {
     padding: 8px 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    .logo {
-      cursor: pointer;
+    .navbar-light {
+      .navbar-toggler.collapsed {
+        border: none;
+      }
+      .navbar-toggler-icon {
+        //background-image: url("/burgerMenu-white.png");
+        background-image: none;
+        
+      }
     }
 
-    a {
-      text-decoration: none;
-      color: #707d8f;
-      font-size: 15px;
-    }
-
-    a:hover {
-      color: #f0326b;
-    }
-
-    ul {
-      list-style: none;
-
-      li {
-        .home{
-          color: #fff;
+    #basic-navbar-nav {
+      #home {
+        color: #fff;
+        &:hover {
+          color: #f0326b;
         }
-        display: inline-block;
-        padding: 20px 15px;
       }
 
-      div {
-        display: inline-block;
+      .nav-link {
+        color: #707d8f;
+        &:hover {
+          color: #f0326b;
+        }
+      }
+      .dropdown-menu {
+        background-color: rgb(0, 0, 0);
+        .dropdown-item {
+          color: #fff;
+          &:hover {
+            background-color: rgb(0, 0, 0);
+          }
+        }
       }
     }
   }
+}
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 150px;
-    z-index: 1;
-    margin-top: 28px;
-
-    a {
-      color: white;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-      font-size: 13px;
+@media screen and (max-width: 991px) {
+  header div {
+    padding: 0;
+    .logo {
+      padding: 18px 16px;
     }
-
-    a:hover {
-      color: #f0326b;
-    }
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropbtn {
-    display: flex;
-    align-content: center;
   }
 }
