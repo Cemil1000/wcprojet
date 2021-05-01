@@ -35,7 +35,7 @@ export default function Section8() {
   const cardsList = allCards.map((elem, index) => {
     return (
       <>  
-          <article key={"cardS8"+index} className="card">
+          <article key={"cardS8"+index} className="card-Section8">
             {elem.img}
             <h3>{elem.title_link}</h3>
             <ul>
@@ -49,7 +49,7 @@ export default function Section8() {
               </li>
             </ul>
             <p>{elem.description}</p>
-            <div className="btnArticle"><a href="#">Read more</a></div>
+            <div className="btn-Article"><a href="#">Read more</a></div>
           </article>
       </>
     );
@@ -67,7 +67,7 @@ export default function Section8() {
             reiciendis quasi itaque, obcaecati atque sit!
           </p>
         </div>
-        <div className="cardsArticle container">
+        <div className="container-Perso cards-Article">
           {cardsList}
         </div>
       </section>

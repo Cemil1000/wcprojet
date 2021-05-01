@@ -35,7 +35,7 @@ export default function Layout({ children }) {
       {children}
 
       <footer>
-        <div className="container">
+        <div className="container-Perso">
           <div>
             <h3>ABOUT</h3>
             <p>
@@ -68,7 +68,7 @@ export default function Layout({ children }) {
               aria-describedby="emailHelp"
               placeholder="Enter email"
             ></input>
-            <button type="submit" className="btnFooter ">
+            <button type="submit" className="btnFooter">
               Subscribe Now
             </button>
           </div>

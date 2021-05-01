@@ -33,17 +33,17 @@ export default function Section5() {
     const personne = team.map((elem, index)=>{
         return(
             <>
-                <div key={"cardS5"+index} className="card">
+                <div key={"cardS5"+index} className="card-Section5">
                     <img src={elem.img} alt={"Portrait photo de" + elem.nom}/>
-                    <div className="card-body">
+                    <div className="card-Body">
                         <h3>{elem.nom}</h3>
                         <span>{elem.role}</span>
                         <p>{elem.descprition}</p>
                         <ul>
-                            <li><a href=""><ImFacebook size={"18"} className="logo"/></a></li>
-                            <li><a href=""><IoLogoTwitter size={"18"} className="logo"/></a></li>
-                            <li><a href=""><TiSocialGooglePlus size={"23"} className="logo"/></a></li>
-                            <li><a href=""><ImDribbble size={"18"} className="logo"/></a></li>
+                            <li><a href=""><ImFacebook size={"18"} className="icon-Section5"/></a></li>
+                            <li><a href=""><IoLogoTwitter size={"18"} className="icon-Section5"/></a></li>
+                            <li><a href=""><TiSocialGooglePlus size={"23"} className="icon-Section5"/></a></li>
+                            <li><a href=""><ImDribbble size={"18"} className="icon-Section5"/></a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ export default function Section5() {
                     <span></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
                 </div>
-                <div className="container cards-Section5">
+                <div className="container-Perso cards-Section5">
                     {personne}
                 </div>
             </section>

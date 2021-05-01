@@ -21,13 +21,13 @@ export default function Section6() {
     const paquet = paquets.map((elem, index)=>{
         return(
             <>
-                <div key={"cardS6"+index} className="card">
+                <div key={"cardS6"+index} className="card-Section6">
                     <div className="prix">
                         <h3>{elem.categorie}</h3>
                         <span>{elem.prix}</span>
                         <p>{elem.descprition}</p>
                     </div>                        
-                    <div className="card-body">
+                    <div className="card-Body">
                         <ul>
                             <li>1GB Disk Space</li>
                             <li>10 Email Account</li>
@@ -36,7 +36,7 @@ export default function Section6() {
                             <li>10 GB Bandwidth</li>
                             <li>24/7 Tech Support</li>
                         </ul>
-                        <div className="btnArticle"><a href="#">Signup</a></div>
+                        <div className="btn-Article"><a href="#">Signup</a></div>
                     </div>
                 </div>
             </> 
@@ -52,7 +52,7 @@ export default function Section6() {
                     <span></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
                 </div>
-                <div className="container cards-Section6">
+                <div className="container-Perso cards-Section6">
                     {paquet}
                 </div>
             </section>

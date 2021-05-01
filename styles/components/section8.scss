@@ -1,11 +1,11 @@
 #section8 {
-  .cardsArticle {
+  .cards-Article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
-    .card {
-      padding: 0 20px;
+    .card-Section8 {
+      padding: 0 15px;
       width: 33.333%;
       min-width: 305px;
       margin-bottom: 40px;
@@ -52,7 +52,7 @@
         font-size: 15px;
         color: #9a9a9a;
       }
-      .btnArticle {
+      .btn-Article {
         a {
           font-size: 12px;
           margin-top: 10px;
@@ -78,7 +78,7 @@
 }
 
 @media screen and (max-width: 626px){
-  #section8 .cardsArticle .card{
+  #section8 .cards-Article .card-Section8{
     text-align: justify;
     width: 100%;
     img{
@@ -88,7 +88,7 @@
 }
 
 @media screen and (max-width: 415px){
-  #section8 .cardsArticle .card img{
+  #section8 .cards-Article .card-Section8 img{
     width: 100%;
   }
 }

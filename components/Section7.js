@@ -57,7 +57,7 @@ export default function Section7() {
   return (
     <>
       <section className="section7">
-        <div id="section7" className="container separation">
+        <div id="section7" className="container-Perso separation">
           <div className="allSlide">
             <Slide {...proprietes}>
               {cardsSlide}

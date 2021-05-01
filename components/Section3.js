@@ -9,35 +9,35 @@ export default function Section3() {
       count: "1.",
       icon: <VscBriefcase size={"40"} className="icon-Section3" />,
       title: "Project Analysis",
-      description: "Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis."
     },
   
     {
       count: "2.",
       icon: <IoAlarmOutline size={"40"} className="icon-Section3" />,
       title: "Time Management",
-      description: "Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis."
     },
   
     {
       count: "3.",
       icon: <AiOutlineMail size={"40"} className="icon-Section3" />,
       title: "Mail Support",
-      description: "Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis."
     },
   
     {
       count: "4.",
       icon: <AiFillLock size={"40"} className="icon-Section3" />,
       title: "Secure System",
-      description: "Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis."
     }
   ]
   
   const cardsList = allCards.map((elem, index) => {
     return (
       <>
-        <div key={"cardS3"+index} className="card">
+        <div key={"cardS3"+index} className="card-Section3">
           <span className="count">{elem.count}</span>
           {elem.icon}
           <h4>{elem.title}</h4>
