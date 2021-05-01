@@ -9,45 +9,40 @@
   .allVideo {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
     .video {
+      width: 50%;
       position: relative;
-      z-index: 1;
+      .imgVideo {
+        width: 100%;
+        height: auto;
+        border-radius: 0.25rem;
+        z-index: 2;
+      }
 
       .icon-homeVideo {
-        display: flex;
-        position: absolute;
-        z-index: 3;
+        position: absolute;      
+        color: #fff;
+        z-index: 2;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #fff;
       }
-
       .icon-homeVideo:hover {
         cursor: pointer;
         width: 95px;
         height: 95px;
       }
-
-      .imgVideo {
-        position: absolute;
-        width: 540px;
-        height: auto;
-        border-radius: 0.25rem;
-        z-index: 2;
-        left: 0;
-      }
-
       .supp-imgIconVideo {
         display: none;
       }
     }
 
     .videoText {
-      margin-left: 64px;
-      width: 520px;
-
+      width: 50%;
+      padding: 0 45px;
       h2 {
         margin-bottom: 20px;
         color: #fff;
@@ -59,27 +54,34 @@
         margin-bottom: 20px;
         line-height: 1.4;
       }
+      a {
+        background-color: #21d6bf;
+        background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+        color: #fff;
+        display: inline-block;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 40px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        border-radius: 2px;
 
-      .ulVideo {
-        margin-top: 50px;
-
-        a {
-          background-color: #21d6bf;
-          background-image: linear-gradient(100deg, #f9643d, #fe2a77);
-          color: #fff;
-          display: inline-block;
-          font-size: 14px;
-          letter-spacing: 1px;
-          padding: 10px 40px;
-          text-transform: uppercase;
-          border: 1px solid transparent;
-          border-radius: 2px;
-          
-          &:hover{
-            background-image: none;
-          }
+        &:hover{
+          background-image: none;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 770px){
+  #allVideo .allVideo{
+    max-width: 540px;
+    .video{
+      width: 100%;
+    }
+    .videoText{
+      width: 100%;
     }
   }
 }

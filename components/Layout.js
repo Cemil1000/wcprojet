@@ -9,7 +9,7 @@ export default function Layout({ children }) {
                     <img src="./img/logo.png" alt="Logo du site" className="logo"/>
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#" className="home">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Portfolio</a></li>
