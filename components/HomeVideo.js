@@ -13,28 +13,15 @@ export default function HomeVideo() {
       <section id="allVideo">
         <div className="allVideo container">
           <div className="video">
+            <img
+              className="imgVideo"
+              src="img/slider/video-player-thumb.jpg"
+              alt="image d'un homme qui parle"
+            />
             <FaPlayCircle
               onClick={activatePlay}
               size={"80"}
               className={"icon-homeVideo " + contenuVideo}
-            />
-
-            <iframe
-              width="540"
-              height="360"
-              src="https://www.youtube.com/embed/g3-VxLQO7do"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            >
-            </iframe>
-            <img
-              className={"imgVideo "+ contenuVideo}
-              width="572"
-              height="360"
-              src="img/slider/video-player-thumb.jpg"
-              alt="image d'un homme qui parle"
             />
           </div>
 
@@ -47,11 +34,9 @@ export default function HomeVideo() {
               Labore at laboriosam unde repellat id expedita quae quisquam
               libero officia consequatur.
             </p>
-            <ul className="ulVideo">
-              <a href="https://themefisher.com/" target="_blank">
-                Download More
-              </a>
-            </ul>
+            <a href="https://themefisher.com/" target="_blank">
+              Download More
+            </a>
           </div>
         </div>
       </section>
