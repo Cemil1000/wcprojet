@@ -1,12 +1,8 @@
-import { FaCaretDown } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import {
   Nav,
   Navbar,
   NavDropdown,
-  Form,
-  FormControl,
-  Button,
 } from "react-bootstrap";
 
 export default function Layout({ children }) {
