@@ -90,10 +90,10 @@ export default function Section10() {
           </p>
         </div>
 
-        <div className="company container">
+        <div className="container-Perso company">
           <ul>{listBtn}</ul>
 
-          <div className="row">
+          <div className="body-Section10">
             <div className="textLeft">{activeButton.content}</div>
             <div className="imgRight">{activeButton.imageContent}</div>
           </div>

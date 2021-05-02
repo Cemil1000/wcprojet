@@ -1,9 +1,8 @@
 #section1{
     background: #F7F7F7;
-    .container{
+    .container-Perso{
         display: flex;
         justify-content: center;
-        align-items: center;
         .titre{
             width: 40%;
             padding: 0 15px;
@@ -36,7 +35,7 @@
 
 @media screen and (max-width: 765px) {
     #section1{
-        .container{
+        .container-Perso{
             display: block;
             max-width: 540px;
             text-align: justify;
@@ -55,7 +54,7 @@
 
 // Demander à Hani si il a le temps parceque c'est un mec occupé
 @media screen and (max-width: 1230px) {
-    #section1 .container .titre h2::before{
+    #section1 .container-Perso .titre h2::before{
         display: none;
     }
 }

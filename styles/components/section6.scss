@@ -3,7 +3,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        .card{
+        .card-Section6{
             width: 33.333%;
             min-width: 255px;
             text-align: center;
@@ -32,7 +32,7 @@
                     margin: 0 auto;
                 }
             }
-            .card-body{
+            .card-Body{
                 background-color: #f9f9f9;
                 margin-bottom: 15px;
                 padding-bottom: 40px;
@@ -44,7 +44,7 @@
                         padding: 10px 0;
                     }
                 }
-                .btnArticle {
+                .btn-Article {
                     a {
                         font-size: 14px;
                         margin-top: 10px;
@@ -53,7 +53,6 @@
                         background-color: #21d6bf;
                         background-image: linear-gradient(100deg, #f9643d, #fe2a77);
                         color: #fff;
-                        display: inline-block;
                         font-size: 14px;
                         letter-spacing: 1px;
                         text-transform: uppercase;
@@ -70,7 +69,7 @@
 }
 
 @media screen and (max-width: 575px) {
-    #section6 .cards-Section6 .card{
+    #section6 .cards-Section6 .card-Section6{
         width: 100%;
     }
 }

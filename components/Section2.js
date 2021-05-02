@@ -24,7 +24,7 @@ export default function Section2() {
   const list = talent.map((elem, index) => {
     return (
       <>
-        <div key={"cardS2" + index} className="card ">
+        <div key={"cardS2" + index} className="card-Section2">
           <p>{elem.icon}</p>
           <h3>{elem.title}</h3>
           <p>{elem.description}</p>
@@ -36,9 +36,11 @@ export default function Section2() {
   return (
     <>
       <section id="section2">
-        <div className="container cards-Section2">{list}</div>
+        <div className="container-Perso cards-Section2">
+          {list}
+        </div>
 
-        <div className="about container">
+        <div className="about container-Perso">
           <div className="creativity">
             <div className="imgCreativity">
               <img

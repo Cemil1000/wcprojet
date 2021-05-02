@@ -13,7 +13,7 @@
         border-radius: 0.25rem;
       }
     }
-    .section12-body {
+    .section12-Body {
       width: 50%;
       padding: 0 15px;
       h2 {
@@ -47,15 +47,11 @@
       .images-wrap {
         background-color: transparent;
         display: flex;
-        .each-slide {
-          .imgProfil {
-            img {
-              display: inline-block;
-              border-radius: 100%;
-              width: 100%;
-              height: auto;
-            }
-          }
+        .each-slide .imgProfil img{
+          display: inline-block;
+          border-radius: 100%;
+          width: 100%;
+          height: auto;
         }
       }
     }
@@ -68,16 +64,20 @@
       width: 100%;
       text-align: start;
     }
-    .section12-body{
+    .section12-Body{
       width: 100%;
     }
   }
 }
 
 @media screen and (max-width:485px){
-  .section12 .check .image{
-    img{
+  .section12 {
+    .check .image img{
       width: 100%;
+      margin-bottom: 15px;
+    }
+    #section12 .allSlide{
+      width: 33.333%;
     }
   }
 }

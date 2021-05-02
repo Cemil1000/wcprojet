@@ -7,7 +7,7 @@
     align-items: center;
     flex-wrap: wrap;
 
-    .divLeft-map {
+    .divLeft-Map {
       width: 50%;
       padding: 0 15px;
       .map {
@@ -17,16 +17,16 @@
       }
     }
 
-    .divRight-form {
+    .divRight-Form {
       width: 50%;
       padding: 0 15px;
 
-      .contact-form {
+      .contact-Form {
         color: #0c0c0c;
         font-size: 14px;
         border-radius: 3px;
 
-        .form-control {
+        .form-Control {
           width: 100%;
           padding: 0.6rem;
           margin-top: 15px;
@@ -52,7 +52,7 @@
           cursor: none;
         }
 
-        .btnForm {
+        .btn-Form {
           width: 100%;
           border: none;
           padding: 15px 0;
@@ -63,8 +63,8 @@
           text-transform: uppercase;
         }
 
-        .btnFormSending {
-          @extend .btnForm;
+        .btn-FormSending {
+          @extend .btn-Form;
           background-image: linear-gradient(100deg, #f9643d, #fe2a77);
           opacity: 0.7;
           cursor: none;
@@ -78,13 +78,13 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
-    .card {
+    .card-Section9 {
       width: 33.333%;
       min-width: 250px;
       padding: 0 15px;
       margin-top: 30px;
       text-align: center;
-      .card-body {
+      .card-Body {
         background-color: #fff;
         padding: 40px 0;
         border-radius: 3px;
@@ -101,7 +101,7 @@
             color: #9a9a9a;
           }
         }
-        .logos {
+        .icons-Section9 {
           display: flex;
           justify-content: center;
           padding-top: 10px;
@@ -110,7 +110,7 @@
             margin: 0 4px;
             a {
               padding: 10px;
-              .logo {
+              .icon-Section9 {
                 color: #f0326b;
               }
             }
@@ -124,17 +124,17 @@
 @media screen and (max-width: 770px){
   #section9 .allInfo{
     max-width: 540px;
-    .divLeft-map{
+    .divLeft-Map{
       width: 100%;
     }
-    .divRight-form{
+    .divRight-Form{
       width: 100%;
     }
   }
 }
 
 @media screen and (max-width: 520px){
-  #section9 .cards-Section9 .card{
+  #section9 .cards-Section9 .card-Section9{
     width: 100%;
   }
 }

@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 70px 0;
-    .card {
+    .card-Section2 {
       width: 33%;
       min-width: 250px;
       padding: 30px 35px;
@@ -90,7 +90,7 @@
 }
 
 @media screen and (max-width: 575px) {
-  #section2 .cards-Section2 .card {
+  #section2 .cards-Section2 .card-Section2 {
     width: 100%;
   }
 }
@@ -111,6 +111,7 @@
     max-width: 540px;
     .creativity {
       justify-content: center;
+      padding: 0;
       .imgCreativity {
         width: 100%;
       }
@@ -120,6 +121,7 @@
     }
     .box {
       justify-content: center;
+      padding: 0;
       .imgBox {
         width: 100%;
       }

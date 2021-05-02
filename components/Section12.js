@@ -39,15 +39,15 @@ export default function Section12() {
     arrows: false,
   };
 
-  const icon = <IoMdCheckboxOutline size={"14"} className="icon" />;
+  const icon = <IoMdCheckboxOutline size={"14"} className="icon-Section12" />;
   return (
     <>
       <section className="section12 separation">
-        <div className="container check">
+        <div className="container-Perso check">
           <div className="image">
             <img src="./img/about/about-1.jpg" alt="" />
           </div>
-          <div className="section12-body">
+          <div className="section12-Body">
             <h2>We care about our work</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
@@ -78,7 +78,7 @@ export default function Section12() {
           </div>
         </div>
 
-        <div id="section12" className="container">
+        <div id="section12" className="container-Perso">
           <div className="allSlide">
             <Slide {...proprietes}>{cardsSlide}</Slide>
           </div>

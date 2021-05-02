@@ -5,7 +5,7 @@ export default function Section11() {
 
     const services =[
         {
-            icon: <IoMdCopy size={"30"} className="icon-Section2"/>,
+            icon: <IoMdCopy size={"30"}/>,
             titre: "Branding",
             description: [
                 "Brand Strategy", 
@@ -15,7 +15,7 @@ export default function Section11() {
             ]
         },
         {
-            icon: <IoAlarmOutline size={"30"} className="icon-Section2"/>,
+            icon: <IoAlarmOutline size={"30"}/>,
             titre: "Web Design",
             description: [
                 "UI Design", 
@@ -25,7 +25,7 @@ export default function Section11() {
             ]
         },
         {
-            icon: <IoBookOutline size={"30"} className="icon-Section2"/>,
+            icon: <IoBookOutline size={"30"}/>,
             titre: "IOS App Development",
             description: [
                 "Game Development", 
@@ -39,8 +39,8 @@ export default function Section11() {
     const service = services.map((elem, index)=>{
         return(
             <>
-                <div key={"cardS11"+index} className="card">
-                    <div className="card-body">
+                <div key={"cardS11"+index} className="card-Section11">
+                    <div className="card-Body">
                         <p>{elem.icon}</p>
                         <h3>{elem.titre}</h3>
                         <ul>
@@ -64,7 +64,7 @@ export default function Section11() {
                     <span></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!</p>
                 </div>
-                <div className="container cards-Section11">
+                <div className="container-Perso cards-Section11">
                     {service}
                 </div>
             </section>

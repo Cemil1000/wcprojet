@@ -11,7 +11,7 @@ class Section9 extends Component {
         userEmail:"",
         subject:"",
         message:"",
-        btn: <input onClick={(e)=> this.check(e)}  type="submit" id="contact-submit" className={"btnForm btn-transparent"} value="Submit"/>
+        btn: <input onClick={(e)=> this.check(e)}  type="submit" id="contact-submit" className="btn-Form" value="Submit"/>
     }
       
     check(e) {
@@ -21,7 +21,7 @@ class Section9 extends Component {
             this.setState({classNameElement:"Error"} )
         }
         else{
-            this.setState({classNameElement:"Ok", btn:<input type="submit" id="contact-submit" className={"btnFormSending btn-transparent"} value="Sending..." disabled />} )
+            this.setState({classNameElement:"Ok", btn:<input type="submit" id="contact-submit" className="btn-FormSending" value="Sending..." disabled />} )
         }
     }
 
@@ -29,7 +29,7 @@ class Section9 extends Component {
         const { userName, userEmail, subject, message, classNameElement, btn} = this.state
         const services =[
             {
-                icon: <IoLocationSharp size={"50"} className="icon-Section2"/>,
+                icon: <IoLocationSharp size={"50"}/>,
                 titre: "Our Location",
                 description: <ul>
                                 <li>14/05, Stockhome</li>
@@ -37,7 +37,7 @@ class Section9 extends Component {
                             </ul>
             },
             {
-                icon: <IoCall size={"50"} className="icon-Section2"/>,
+                icon: <IoCall size={"50"}/>,
                 titre: "Call Us",
                 description: <ul>
                                 <li>Office: (03) 9283 2617</li>
@@ -45,14 +45,14 @@ class Section9 extends Component {
                             </ul>
             },
             {
-                icon: <IoPersonCircleSharp size={"50"} className="icon-Section2"/>,
+                icon: <IoPersonCircleSharp size={"50"}/>,
                 titre: "We are social",
-                description: <ul className="logos">
-                                <li><a href=""><ImFacebook size={"17"} className="logo"/></a></li>
-                                <li><a href=""><IoLogoTwitter size={"17"} className="logo"/></a></li>
-                                <li><a href=""><IoLogoLinkedin size={"17"} className="logo"/></a></li>
-                                <li><a href=""><ImDribbble size={"17"} className="logo"/></a></li>
-                                <li><a href=""><ImInstagram size={"17"} className="logo"/></a></li>
+                description: <ul className="icons-Section9">
+                                <li><a href=""><ImFacebook size={"17"} className="icon-Section9"/></a></li>
+                                <li><a href=""><IoLogoTwitter size={"17"} className="icon-Section9"/></a></li>
+                                <li><a href=""><IoLogoLinkedin size={"17"} className="icon-Section9"/></a></li>
+                                <li><a href=""><ImDribbble size={"17"} className="icon-Section9"/></a></li>
+                                <li><a href=""><ImInstagram size={"17"} className="icon-Section9"/></a></li>
                             </ul>
             }
         ]
@@ -60,8 +60,8 @@ class Section9 extends Component {
         const service = services.map((elem, index)=>{
             return(
                 <>
-                    <div key={"cardS9 "+ index} className="card">
-                        <div className="card-body">
+                    <div key={"cardS9 "+ index} className="card-Section9">
+                        <div className="card-Body">
                             <p>{elem.icon}</p>
                             <h3>{elem.titre}</h3>
                             {elem.description}
@@ -84,8 +84,8 @@ class Section9 extends Component {
                         </p>
                     </div>
                     
-                    <div className="container allInfo">
-                        <div className="divLeft-map">
+                    <div className="container-Perso allInfo">
+                        <div className="divLeft-Map">
                             <div className="map">
                             
                                 <Map google={this.props.google} zoom={14}>
@@ -100,19 +100,19 @@ class Section9 extends Component {
                             </div>
                         </div>
         
-                        <div className="divRight-form">
-                            <form className="contact-form" method="post" action="sendmail.php" role="form">				
+                        <div className="divRight-Form">
+                            <form className="contact-Form" method="post" action="sendmail.php" role="form">				
                                 <div>
-                                    <input value={userName} onChange={(e)=>{this.setState({userName: e.target.value})}} type="text" placeholder="Your Name" className={"form-control "+classNameElement} name="name" id="name"/>
+                                    <input value={userName} onChange={(e)=>{this.setState({userName: e.target.value})}} type="text" placeholder="Your Name" className={"form-Control "+classNameElement} name="name" id="name"/>
                                 </div>
                                 <div>
-                                    <input value={userEmail} onChange={(e)=>{this.setState({userEmail: e.target.value})}} type="email" placeholder="Your Email" className={"form-control "+classNameElement} name="email" id="email"/>
+                                    <input value={userEmail} onChange={(e)=>{this.setState({userEmail: e.target.value})}} type="email" placeholder="Your Email" className={"form-Control "+classNameElement} name="email" id="email"/>
                                 </div>
                                 <div>
-                                    <input value={subject} onChange={(e)=>{this.setState({subject: e.target.value})}} type="text" placeholder="Subject" className={"form-control "+classNameElement} name="subject" id="subject"/>
+                                    <input value={subject} onChange={(e)=>{this.setState({subject: e.target.value})}} type="text" placeholder="Subject" className={"form-Control "+classNameElement} name="subject" id="subject"/>
                                 </div>
                                 <div>
-                                    <textarea value={message} onChange={(e)=>{this.setState({message: e.target.value})}} rows="6" placeholder="Message" className={"form-control "+classNameElement} name="message" id="message"></textarea>	
+                                    <textarea value={message} onChange={(e)=>{this.setState({message: e.target.value})}} rows="6" placeholder="Message" className={"form-Control "+classNameElement} name="message" id="message"></textarea>	
                                 </div>     
                                 <div id="cf-submit">
                                     {btn}
@@ -121,7 +121,7 @@ class Section9 extends Component {
                         </div>
                     </div>
     
-                    <div className="container cards-Section9">
+                    <div className="container-Perso cards-Section9">
                         {service}
                     </div>
                 </section>

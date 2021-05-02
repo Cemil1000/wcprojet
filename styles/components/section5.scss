@@ -5,7 +5,7 @@
         flex-wrap: wrap;
         justify-content: center;
         // Demander a hani le mec trop occuper parceque c'est un homme d'affaire
-        .card{
+        .card-Section5{
             width: 25%;
             text-align: center;
             padding: 0 15px;
@@ -15,7 +15,7 @@
             img{
                 width: 100%;
             }
-            .card-body{
+            .card-Body{
                 background-color: #fff;
                 padding: 25px 0;
                 h3{
@@ -38,7 +38,7 @@
                         margin: 0 4px;
                         a{
                             padding: 10px;
-                            .logo{
+                            .icon-Section5{
                                 color: #f0326b;
                             }
                         }
@@ -50,14 +50,14 @@
 }
 
 @media screen and (max-width: 770px){
-    #section5 .cards-Section5 .card{
+    #section5 .cards-Section5 .card-Section5{
         width: 50%;
         margin-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 520px){
-    #section5 .cards-Section5 .card{
+    #section5 .cards-Section5 .card-Section5{
         width: 100%;
         margin-bottom: 10px;
     }

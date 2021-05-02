@@ -11,7 +11,7 @@ export default function HomeVideo() {
   return (
     <>
       <section id="allVideo">
-        <div className="allVideo container">
+        <div className="container-Perso allVideo">
           <div className="video">
             <img
               className="imgVideo"
