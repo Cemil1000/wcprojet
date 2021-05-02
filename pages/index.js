@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Layout >
-        <Sectionadelete />
+        <HomeVideo />
         <Section1 />
         <Section2 />
         <Section3 />
