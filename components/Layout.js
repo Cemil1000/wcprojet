@@ -19,13 +19,13 @@ export default function Layout({ children }) {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"> <AiOutlineMenu style={iconStyles} /> </Navbar.Toggle>{/* <=Burger Menu */}
             <Navbar.Collapse id="basic-navbar-nav"className="justify-content-end">
-              <Nav.Link id="home" href="#">Home</Nav.Link>
-              <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#">Service</Nav.Link>
-              <Nav.Link href="#">Portfolio</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
+              <Nav.Link id="home" href="/">Home</Nav.Link>
+              <Nav.Link href="/About">About</Nav.Link>
+              <Nav.Link href="/Service">Service</Nav.Link>
+              <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+              <Nav.Link href="/Contact">Contact</Nav.Link>
               <NavDropdown title="Pages" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">404</NavDropdown.Item>
+              <NavDropdown.Item href="/Page_404">404</NavDropdown.Item>
               </NavDropdown>
             </Navbar.Collapse>
           </Navbar>
